@@ -19,7 +19,75 @@
     </head>
 
     <body class="container">
-        <!-- 0=0px
+
+        <div class="d-lg-block">
+            Büyük ekranda block seviyesinde göster
+        </div>
+
+        <div class="d-md-none">
+            Orta büyüklükte ekranda gösterme
+        </div>
+
+
+        <div class="d-flex">
+            It's a flex container
+        </div>
+
+        <div class="d-inline-flex">
+            It's a flex container
+        </div>
+
+        <!-- DISPLAY -->
+        <button class="btn btn-primary">Button</button>
+        <button class="btn btn-primary d-inline">D-inline</button>
+        <button class="btn btn-primary d-inline-block">d-inline-block</button>
+        <button class="btn btn-primary d-block">D-Block</button> 
+        <button class="btn btn-primary d-none">Button</button>
+
+        
+        <hr>
+<br><br>
+        <div class="d-grid gap-4 mx-auto">
+            <button class="btn btn-primary">Data1</button>
+            <button class="btn btn-primary">Data2</button>
+            <button class="btn btn-primary">Data3</button>
+        </div>
+        <hr>
+
+        <div class="d-grid gap-4 d-md-block mt-3">
+            <button class="btn btn-primary">Data1-x</button>
+            <button class="btn btn-primary">Data2-x</button>
+            <button class="btn btn-primary">Data3-x</button>
+        </div>
+        <hr>
+
+        <!-- gap aralarında ki boşluğu temsil ediyor -->
+        <div class="d-grid gap-4">
+            <button class="btn btn-primary">Data1</button>
+            <button class="btn btn-primary">Data2</button>
+            <button class="btn btn-primary">Data3</button>
+        </div>
+        <hr>
+
+        <button class="btn btn-primary mt-2">Button 1</button>
+        <button class="btn btn-secondary mt-2">Button 2</button>
+        <button class="btn btn-warning mt-2">Button 3</button>
+        <hr>
+
+        <button class="btn btn-outline-warning mt-2">Button 1</button>
+        <button class="btn btn-outline-warning mt-2 btn-sm">Button 2</button>
+        <button class="btn btn-outline-warning mt-2 btn-lg">Button 3</button>
+        <button class="btn btn-link mt-2 btn-sm">Button 1</button>
+        <button class="btn btn-danger mt-2 btn-lg active">Active</button>
+        <button class="btn btn-danger mt-2 btn-sm disabled">Passive</button>
+        <hr>
+
+        <input type="submit" class="btn btn-link mt-2 btn-lg" value="input"/>
+        <a href="#" class="btn btn-danger mt-2 btn-sm">Link Data</a> 
+        <hr>
+
+
+        <!-- 0=0px  
             1=4px
             2=8px
             3=16px
