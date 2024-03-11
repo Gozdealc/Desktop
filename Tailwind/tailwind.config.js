@@ -3,7 +3,22 @@ module.exports = {
   content: ["./src/**/*.{html,js}"],
 
   theme: {
-    extend: {},
+
+    container: {
+      center: true,
+
+    },
+    extend: {
+      colors: {
+        "miuul-red": "red",
+        "miuul-blue": "blue",
+      },
+
+      fontFamily: {
+      miuul: ['Madimi One', 'sans-serif'],
+      open: ['open sans', 'sans-serif'],
+      }
+    },
   },
   plugins: [],
 }
