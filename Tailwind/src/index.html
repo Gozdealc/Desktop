@@ -25,7 +25,34 @@
 
 
 <body>
-  
+<!-- FORM -->
+<div class="container mx-auto p-5">
+<form class="max-w-md mx-auto" action="#" method="get">
+  <!-- ADINIZ -->
+  <div>
+    <label for="uname">Adınız:</label>
+    <input class="w-full p-2 border border-purple-800 focus:outline-none focus:border-red-600" type="text" id="uname" name="uname" placeholder="Adınız" title="adınız" autofocus="on" required>
+  </div>
+  <!--SOY ADINIZ -->
+  <div>
+    <label for="usurname">Soy Adınız:</label>
+    <input class="w-full p-2 border border-purple-800 focus:outline-none focus:border-red-600" type="text" id="usurname" name="usurname" placeholder="Soy Adınız" title="soyadınız" required>
+  </div>
+  <!-- EMAIL -->
+  <div>
+    <label for="uemail">Email:</label>
+    <input class="w-full p-2 border border-purple-800 focus:outline-none focus:border-red-600" type="email" id="uemail" name="uemail" placeholder="Email Adresiniz" title="email" required>
+  </div>
+  <!-- PASSWORD -->
+  <div>
+    <label for="upassword">Password:</label>
+    <input class="w-full p-2 border border-purple-800 focus:outline-none focus:border-red-600" type="password" id="upassword" name="upassword" placeholder="Password" title="password" required>
+  </div>
+  <button class="bg-purple-500 mt-2 p-2 shadow-lg">Gönder</button>
+</form>
+</div>
+
+<hr>
 <!-- LIST -->
 <div class="container mx-auto p-7">
   <p class="text-center border bg-orange-500 shadow-xl">Düzensiz Liste</p>
