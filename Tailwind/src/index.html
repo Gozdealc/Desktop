@@ -5,7 +5,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+  <title>Tailwind</title>
   <!-- TAILWIND OUTPUT CSS -->
 
   <link href="./output.css" rel="stylesheet">
@@ -25,8 +25,31 @@
 
 
 <body>
-  <!-- SPINNER -->
 
+  <!-- RATING -->
+<p class="bg-black text-white text-center">Değerlendirme</p>
+<div>
+  <h1 class="font-bold mb-5 text-xl text-center">Değerlendirme</h1>
+  <div class="flex items-end">
+    <input type="radio" id="star5" name="rating" class="hidden" value="5">
+    <label for="star5" class="cursor-pointer text-xl">&#9733;</label>
+
+    <input type="radio" id="star4" name="rating" class="hidden" value="4">
+    <label for="star4" class="cursor-pointer text-xl">&#9733;</label>
+
+    <input type="radio" id="star3" name="rating" class="hidden" value="3">
+    <label for="star3" class="cursor-pointer text-xl">&#9733;</label>
+
+    <input type="radio" id="star2" name="rating" class="hidden" value="2">
+    <label for="star2" class="cursor-pointer text-xl">&#9733;</label>
+
+    <input type="radio" id="star1" name="rating" class="hidden" value="1">
+    <label for="star1" class="cursor-pointer text-xl">&#9733;</label>
+  </div>
+</div>
+
+  <!-- SPINNER -->
+<hr>
   <div class="flex items-center h-screen justify-center">
     <div class="animate-spin rounded-full border-t-4 border-red-950 border-opacity-30 h-20 w-20"></div>
   </div>
@@ -43,7 +66,7 @@
   <!-- ADINIZ -->
   <div>
     <label for="uname">Adınız:</label>
-    <input class="w-full p-2 border border-purple-800 focus:outline-none focus:border-red-600" type="text" id="uname" name="uname" placeholder="Adınız" title="adınız" autofocus="on" required>
+    <input class="w-full p-2 border border-purple-800 focus:outline-none focus:border-red-600" type="text" id="uname" name="uname" placeholder="Adınız" title="adınız" required>
   </div>
   <!--SOY ADINIZ -->
   <div>
