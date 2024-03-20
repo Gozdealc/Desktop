@@ -60,38 +60,95 @@ Multi Comment
 // const companyName3 = "Miuul Frontend JS HTML";
 // console.warn(companyName3);
 
-let miuuldata1 = 12;
-let miuuldata2 = 20;
+// let miuuldata1 = 12;
+// let miuuldata2 = 20;
 
-// Aritmetik Operatörler 
-console.log(miuuldata1+miuuldata2);
-let result = miuuldata2 - miuuldata1;
-console.log(result)
-console.log(miuuldata1*miuuldata2);
-console.log(miuuldata2/miuuldata1);
+// // Aritmetik Operatörler 
+// console.log(miuuldata1+miuuldata2);
+// let result = miuuldata2 - miuuldata1;
+// console.log(result)
+// console.log(miuuldata1*miuuldata2);
+// console.log(miuuldata2/miuuldata1);
 
 // Karşılaştırma Operatörleri
 
-console.log(miuuldata1<miuuldata2);
-console.log(miuuldata1>miuuldata2);
-console.log(miuuldata1 == miuuldata2);
-console.log(miuuldata1 === miuuldata2);
-console.log(miuuldata1 !== miuuldata2);
+// console.log(miuuldata1<miuuldata2);
+// console.log(miuuldata1>miuuldata2);
+// console.log(miuuldata1 == miuuldata2);
+// console.log(miuuldata1 === miuuldata2);
+// console.log(miuuldata1 !== miuuldata2);
 
-// Atama Operatörleri
+// // Atama Operatörleri
 
-const data1= 10, data2= "10";
-// Türüne bakmaksızın karşılaştırır biri number biri string ifade ama true olarak kabul ediyor.
-console.log(data1 == data2);
-console.log(data1 === data2);
+// const data1= 10, data2= "10";
+// // Türüne bakmaksızın karşılaştırır biri number biri string ifade ama true olarak kabul ediyor.
+// console.log(data1 == data2);
+// console.log(data1 === data2);
 
 
-// Mantıksal Operatörler
+// // Mantıksal Operatörler
 
-const data3= true, data4= false;
-console.log(data3 && data4);
-console.log(data3 || data4);
+// const data3= true, data4= false;
+// console.log(data3 && data4);
+// console.log(data3 || data4);
 
-// Promt
-const userData = prompt("Lütfen adınızı giriniz");
-console.log(userData)
+// // Promt
+// const userData = prompt("Lütfen adınızı giriniz");
+// console.log(userData)
+
+// MATH
+// console.log(Math.PI);
+// console.log(Math.E);
+// console.log(Math.sqrt(25));
+// console.log(Math.pow(5,2));
+// console.log(5**2);
+// console.log(Math.abs(-5));
+// console.log(Math.min(2,5,77,-1));
+// console.log(Math.floor(4,5));
+// console.log(Math.ceil(7,1));
+// console.log(Math.round(5,5));
+
+// console.log(Math.random()*1+10);
+
+// ESCAPE CHARACTER
+// console.log("Merhaba \"Miuul Frontend");
+// console.log("Merhaba 'Miuul Frontend");
+// console.log("Merhaba \"Miuul \n Frontend");
+// console.log("Merhaba \"Miuul \n\t Frontend");
+
+// Type Of
+
+// let data = 44;
+// console.log(typeof data);
+
+// let name = "Gözde Alıcı";
+// console.log(typeof name);
+
+// let isLogin = true;
+// console.log(typeof isLogin);
+
+// Instanceof
+
+// let objectInstance = new Number(44);
+// console.log(objectInstance instanceof Number);
+
+// // NEW
+
+// let dataNew = new Number(44);
+// console.log(dataNew);
+
+// NULL
+
+// dataNew = null;
+// console.log(dataNew);
+
+// // NaN
+
+// let result = 10/10;
+// console.log(result);
+
+// UNDEFINED
+
+// let dataNumber;
+// console.log(dataNumber);
+
