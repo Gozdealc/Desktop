@@ -152,3 +152,81 @@ Multi Comment
 // let dataNumber;
 // console.log(dataNumber);
 
+// SAYISAL İŞLEMLER 
+
+// let numberMiuul = 44;
+// console.log(numberMiuul);
+// console.log(isNaN(numberMiuul));
+// console.log(typeof numberMiuul);
+
+// let numberFloat = 44.23;
+// console.log(numberFloat);
+// console.log(typeof numberFloat);
+
+// let number2 = 5/0;
+// console.log(number2);
+
+// let bilimselGosterim =13E+5 ;
+// console.log(bilimselGosterim);
+
+// let bilimselGosterim2 =13E-5 ;
+// console.log(bilimselGosterim2);
+
+
+// let data1 = "10.2";
+// let data2 = "23.4";
+// console.log(data1+data2);
+// console.log(Number(data1)+Number(data2));
+// console.log(parseInt(data1)+parseInt(data2));
+// console.log(parseFloat(data1)+parseFloat(data2));
+
+
+// let miuulMetinsel = " Miuul Javascript öğreniyorum.";
+// let miuulMetinsel2 = "html,js,css";
+// console.log(miuulMetinsel);
+// console.log(miuulMetinsel.length);
+// console.log(miuulMetinsel.trim().length);
+
+// console.log(miuulMetinsel.toLowerCase());
+// console.log(miuulMetinsel.toUpperCase());
+
+// console.log(miuulMetinsel.indexOf("Javascript"));
+// console.log(miuulMetinsel.lastIndexOf("Javascript"));
+// console.log(miuulMetinsel.includes("Javascript"));
+
+// console.log(miuulMetinsel+ " " +miuulMetinsel2);
+// console.log(miuulMetinsel.concat(miuulMetinsel2));
+
+// console.log(miuulMetinsel.substring(4));
+// console.log(miuulMetinsel.substring(0,3));
+// 0-3 arasında ki metinleri göster.
+
+
+// ######################################################################## //
+
+// FUNCTION 
+
+// PARAMETRE VE RETURN YOK
+
+// function returnparametreyok () {
+//     console.log("Helloooo");
+// }
+// returnparametreyok();
+
+// // Fonksiyonu çağırmazsak çalışmaz.
+
+// // PARAMETRE VAR RETURN YOK
+
+// function parametreli (parametre1,parametre2) {
+//     console.log("Helloooo"+ parametre1+parametre2);
+// }
+// parametreli("javascript",2);
+
+// // PARAMETRE YOK RETURN VAR
+
+// function returnlu () {
+//     return "Merhaba Miuul";
+// }
+// let gozde  = returnlu;
+// console.log(gozde);
+
