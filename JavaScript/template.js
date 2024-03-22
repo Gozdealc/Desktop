@@ -230,3 +230,64 @@ Multi Comment
 // let gozde  = returnlu;
 // console.log(gozde);
 
+// ########################################################
+
+// Fonksiyon Türleri
+
+// IMMEDIA FUNCTION
+
+// ( function () {
+//     console.log("Immedia function - Anonymous function");
+// } ) ();
+
+// ( () => {
+//     console.log("Immedia funtıon-Arrow function");
+// } ) ();
+
+// // NORMAL FUNCTION
+
+// function toplama(x,y) {return x+y}
+// console.log(toplama(5,6));
+
+// // ANONYMOUS FUNCTION 
+
+// let toplama2 = function(x,y) {return x+y}
+// console.log(toplama2(5,9));
+
+// // ARROW FUNCTION
+
+// const toplama3 = (x,y) => {
+//     return x*y;
+// }
+// console.log(toplama3(5,6));
+
+// ###################################################################
+
+// CONDITIONAL 
+
+// const conditional= () => {
+//     let isLogin = true;
+
+//     if (isLogin) {
+//         console.log("Giriş Yapıldı");
+//     }
+//     else {
+//         console.log("Giriş Yapılmadı");
+//     }
+// }
+// conditional()
+
+// const conditional2= () => {
+//     let number = 0;
+
+//     if (number<0) {
+//         console.log("Sayı negatiftir");
+//     }
+//     else if (number>0) {
+//         console.log("Sayı pozitiftir.");
+//     }
+//     else {
+//         console.log("Sıfırdır");
+//     }
+// }
+// conditional2 ()
