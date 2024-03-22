@@ -344,3 +344,26 @@ Multi Comment
 // ############################################################
 
 // LOOP
+
+// const forLoop= () => {
+//     let value = "Miuul ";
+
+//     for (let i=1; i<=5; i++) {
+//         console.log(value + i);
+//     }
+// }
+// forLoop()
+
+// console.log("###########");
+
+// const whileLoop=() => {
+//     let value = "Miuul ";
+//     let i = 1;
+
+//     while (i<5) {
+//         console.log(value + i);
+//         i ++;
+//         i+=1;
+//     }
+// }
+// whileLoop()
