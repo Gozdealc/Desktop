@@ -291,3 +291,56 @@ Multi Comment
 //     }
 // }
 // conditional2 ()
+
+// ##########################################################
+
+// TERNARY
+
+// const conditionalternary=() => {
+//     let isMiuul = 9;
+//     let result= (isMiuul>0) ? "Pozitif Sayı":"Negatif Sayı";
+//     console.log(result);
+// }
+// conditionalternary()
+
+// // SWITCH CASE 
+
+// const conditionalIfElse = ()  => {
+//     let isMiuul =0;
+//      if(isMiuul==0) {
+//         console.log("Sıfır");
+//      } else if(isMiuul==1) {
+//         console.log("Bir");
+//      } else if (isMiuul == 2) {
+//         console.log("İki");
+//      } else {
+//         console.log("Bilinmiyor");
+//      }
+// }
+// conditionalIfElse()
+
+
+// const conditionalSwitch = () => {
+//     let isMiuul = 0;
+//     switch (isMiuul) {
+//         case 0:
+//             console.log("Sıfır");
+//             break;
+//         case 1:
+//             console.log("Bir");
+//             break;
+//         case 2:
+//             console.log("İki");
+//             break;
+//         default :
+//             console.log("Bilinmiyor");
+//             break;
+//     }
+// }
+// conditionalSwitch ()
+
+// Eğer karar aşamasında çok fazla else,if olursa switch case yapısını kullanmamız daha temiz görüntü sağlar.
+
+// ############################################################
+
+// LOOP
