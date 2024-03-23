@@ -412,29 +412,50 @@ Multi Comment
 
 // CALL BACK FUNTION 
 
-const callBackFunction = () => {
-    const data1 = (number, callback) => {
-        setTimeout( () => {
-            callback(number)
-        }, 1000);
-    }
+// const callBackFunction = () => {
+//     const data1 = (number, callback) => {
+//         setTimeout( () => {
+//             callback(number)
+//         }, 1000);
+//     }
 
-    const data2 = (number, callback) => {
-        setTimeout( () => {
-            callback(number)
-        }, 1000);
-    }
+//     const data2 = (number, callback) => {
+//         setTimeout( () => {
+//             callback(number)
+//         }, 1000);
+//     }
 
-   data1(25, (number1) => {
-    console.log(number1);
+//    data1(25, (number1) => {
+//     console.log(number1);
 
-    data2(number1, (number2) => {
-        console.log(number2);
-    })
-   })
-}
+//     data2(number1, (number2) => {
+//         console.log(number2);
+//     })
+//    })
+// }
 
-callBackFunction()
+// callBackFunction()
+
+
+//PROMISE
+
+// const promiseFunction = () => {
+
+//     function data1(number) {
+//         return new Promise((resolve, reject) => {
+//             setTimeout( () => {
+//                 console.log(number + " Promise çalıştı");
+//                 resolve(number);
+//             }, 1000);
+//         })
+//     }
+
+//     let result=data1(5);
+//     console.log(result);
+
+// }
+// promiseFunction()
+
 
 
 
