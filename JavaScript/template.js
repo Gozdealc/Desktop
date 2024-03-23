@@ -367,3 +367,74 @@ Multi Comment
 //     }
 // }
 // whileLoop()
+
+// SET TIME OUT
+
+// const setTimeOutFunction = () => {
+
+//     setTimeout( () => {
+//         console.log("2 saniye sonra çalıştır ve durdur.");
+//     }, 2000);
+
+// }
+// setTimeOutFunction()
+
+
+// SET INTERVAL
+// ARROW FUNCTION
+
+// const setIntervalFunction = () => {
+
+//     setInterval( () => {
+//         console.log("2 saniye sonra çalış ve devam et.");
+//     }, 2000);
+
+// }
+// setIntervalFunction()
+
+// MONAD, CALL BACK FUNCTION
+
+// MONAD
+
+// const monad = () => {
+//     const data1 = (number) => {
+//         return Math.sqrt(number)
+//     }
+
+//     const data2 = (number) => {
+//         return Math.pow(number,3)
+//     }
+
+//     let result = data2(data1(25));
+//     console.log(result);
+// }
+// monad()
+
+// CALL BACK FUNTION 
+
+const callBackFunction = () => {
+    const data1 = (number, callback) => {
+        setTimeout( () => {
+            callback(number)
+        }, 1000);
+    }
+
+    const data2 = (number, callback) => {
+        setTimeout( () => {
+            callback(number)
+        }, 1000);
+    }
+
+   data1(25, (number1) => {
+    console.log(number1);
+
+    data2(number1, (number2) => {
+        console.log(number2);
+    })
+   })
+}
+
+callBackFunction()
+
+
+
